@@ -233,36 +233,27 @@ body {
 #day_dinner_container {
   width: 635px;
   height: 500px;
-  float: right; }
-
-#day_dinner_box_border {
-  width: 835px;
-  height: 490px;
   float: right;
-  background-image: url(../images/page_contents_bgd8fb.png?8046fa4c309da9477241e3d1aa59d981);
-  background-repeat: repeat; }
+ }
 
-#day_dinner_box_bg {
-  width: 598px;
-  height: 386px;
-  float: left;
-  margin: 17px;
-  background-image: url(images/day_dinner_box_bg.html);
-  background-repeat: no-repeat; }
 
 #slideshow_photos {
-  width: 800px;
-  height: 450px;
-  float: left;
-  margin: 17px;
+  width: 500px;
+  height: 350px;
+  float: right;
+  margin: 1px;
   overflow: hidden;
-  position: relative; }
+  position: relative;
+  border: 5px solid #000000 ;
+  border-radius: 10px;
+  border-style: double;}
 
 #slideshow_photos img {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 8; }
+  z-index: 8;
+ }
 
 #slideshow_photos img.active {
   z-index: 10; }
