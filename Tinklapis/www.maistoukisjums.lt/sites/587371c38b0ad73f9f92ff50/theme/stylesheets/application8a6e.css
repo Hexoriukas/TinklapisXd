@@ -273,7 +273,7 @@ body {
   vertical-align: top; }
 
 .menu_group {
-  width: 280px;
+  width: 300px;
   color: #b9b9b9;
   float: left;
   margin-bottom: 25px; }
@@ -292,8 +292,8 @@ body {
 
 .menu_group > tbody > tr:not(:first-child) > td:nth-child(2) {
   color: #E8E8E8;
-  text-align: right;
-  width: 75px; }
+  text-align: left;
+  width: 60px; }
 
 .menu_group > tbody > tr:not(:first-child) > td:nth-child(2) > .price {
   display: block;
